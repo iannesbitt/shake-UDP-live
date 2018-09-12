@@ -1,7 +1,7 @@
 # shake-UDP-live
 A jupyter notebook designed to read and plot RaspberryShake UDP packets in real time
 
-![Example Plot](img.png)
+![Example Plot](img.gif)
 
 ## Installing
 
