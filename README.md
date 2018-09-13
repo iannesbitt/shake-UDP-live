@@ -17,6 +17,6 @@ git clone https://github.com/iannesbitt/shake-UDP-live
 
 This command will cause Git to create a folder and download the contents of this repository into it.
 
-4. Now go to a command prompt and type `jupyter-notebook`. A browser window will open. Navigate to the location on your computer where you downloaded this repository and open the file named **shake_udp_live.ipynb**. Change the `port` variable to reflect the local port number to which your Shake is sending data. Then, click on the "Cell" menu and click on "Run All".
+4. Now go to a command prompt and type `jupyter-notebook`. A browser window will open. Using the Jupyter browser, navigate to the location on your computer where you downloaded this repository and open the file named **shake_udp_live.ipynb**. Change the `port` variable to reflect the local port number to which your Shake is sending data. Then, click on the "Cell" menu and click on "Run All".
 
 5. Enjoy beautiful live data!
