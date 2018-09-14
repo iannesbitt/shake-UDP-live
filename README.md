@@ -3,6 +3,9 @@ A jupyter notebook designed to read and plot RaspberryShake UDP packets in real 
 
 ![Example Plot](img.gif)
 
+## Disclaimer
+This program is fairly processor-intensive, owing to the spectrogram calculations happening 4 times per second. I haven't tested it on machines other than my own, but can envision people running into reduced performance problems in some cases. Even on my workstation the best I can do seems to be about 3.5 frames per second. It may help to run this program without anything else open. (If you're on a Mac, this means actually quitting each open program in your dock, not just closing open windows.) If performance is an issue for you, please email me at ian dot nesbitt at gmail dot com and I will send you a less resource-hungry version (without the spectrogram).
+
 ## Installing
 
 1. You will find the first steps to being able to run this program in the [RaspberryShake documentation regarding UDP](https://manual.raspberryshake.org/udp.html#udp). Please refer there, then come back to this page. If you've already forwarded your UDP output to the machine you will run this script on, see step 2. If you've tried this and still need help, please feel free to post a question on the [community forum](https://groups.google.com/forum/#!forum/raspberryshake). I personally forwarded data from a remote RaspberryShake to port 18002 on my workstation, which is how the script is set up currently.
