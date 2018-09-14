@@ -3,8 +3,13 @@ A jupyter notebook designed to read and plot RaspberryShake UDP packets in real 
 
 ![Example Plot](img.gif)
 
-## Disclaimer
-This program is fairly processor-intensive, owing to the spectrogram calculations happening 4 times per second. I haven't tested it on machines other than my own, but can envision people running into reduced performance problems in some cases. Even on my workstation the best I can do seems to be about 3.5 frames per second. It may help to run this program without anything else open. (If you're on a Mac, this means actually quitting each open program in your dock, not just closing open windows.) If performance is an issue for you, please email me at ian dot nesbitt at gmail dot com and I will send you a less resource-hungry version (without the spectrogram).
+## Disclaimer about script performance
+
+This program is fairly processor-intensive, owing largely to the Fourier Transform calculation happening on each loop, and the fact that I'm not practiced at finding efficiencies in scripts. I haven't tested it on machines other than my own, but can envision people running into reduced performance problems in some cases. Even on my workstation the best I can do seems to be about 3.9 frames per second.
+
+It may help to run this program without anything else open. (If you're on a Mac, this means actually quitting each open program in your dock, not just closing open windows.) You can speed up the program significantly by decreasing the number of seconds of data to display (i.e. 30 instead of 60). Inevitably you may end up with dropped packets simply because your processor can't keep up with the data rate.
+
+If performance is an issue for you, please email me at ian dot nesbitt at gmail dot com and I will send you a less resource-hungry version (without the spectrogram). If you can find ways to make these calculations more efficient, please contribute to this project!
 
 ## Installing
 
