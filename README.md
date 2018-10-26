@@ -1,15 +1,15 @@
 # shake-UDP-live
-A jupyter notebook designed to read and plot RaspberryShake UDP packets in real time
+Low requirement jupyter notebooks designed to read and plot RaspberryShake UDP packets in real time
 
 ![Example Plot](img.gif)
 
 ## Disclaimer about script performance
 
-This program is fairly processor-intensive, owing primarily to the large number of Fourier Transform calculations happening on each loop, and the fact that I'm not practiced at finding efficiencies in scripts. I haven't tested it on machines other than my own, but can envision people running into reduced performance problems in some cases. Even on my workstation the best I can do seems to be about 3.9 frames per second.
+This program requires fairly fast processor performance to both plot wavelets and keep up with the Shake's UDP packet rate, owing primarily to the number of Fourier Transform calculations happening on each loop, and the fact that I'm not practiced at finding efficiencies in scripts. I haven't tested it on machines other than my own, but can envision people running into reduced performance problems in some cases. Even on my workstation the best I can do seems to be about 3.9 frames per second.
 
 It may help to run this program without anything else open. (If you're on a Mac, this means actually quitting each open program in your dock, not just closing open windows.) You can speed up the program significantly by decreasing the number of seconds of data to display (i.e. 30 instead of 60). Inevitably you may end up with dropped packets simply because your processor can't keep up with the data rate.
 
-If performance is an issue for you, please email me at ian dot nesbitt at gmail dot com and I will send you a less resource-hungry version (without the spectrogram). If you can find ways to make these calculations more efficient, please contribute to this project!
+If performance is an issue for you, try using the `shake_udp_lite` version (without the spectrogram). If you can find ways to make the script more efficient, please contribute to this project!
 
 ## Installing
 
