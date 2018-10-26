@@ -13,7 +13,7 @@ If performance is an issue for you, please email me at ian dot nesbitt at gmail 
 
 ## Installing
 
-The first couple of steps are different if you are trying to install on a desktop/laptop or a RaspberryPi. 
+*Note that the first step will be different depending on whether you are trying to install on a desktop/laptop or a RaspberryPi.*
 
 ### Linux, Mac, and Windows desktop or laptop devices
 
@@ -21,7 +21,7 @@ The first couple of steps are different if you are trying to install on a deskto
 
 ### Raspberry Pi with Raspbian OS
 
-1. Great news! This script should be able to run on Raspberry Pi (tested and confirmed by TideMan). Follow the steps in [this instructable](https://www.instructables.com/id/Jupyter-Notebook-on-Raspberry-Pi/) to get Jupyter Notebook running on your RPi. Then skip down to step 2.
+1. Great news! This script should be able to run on Raspberry Pi 3 (tested and confirmed by TideMan). Follow the steps in [this instructable](https://www.instructables.com/id/Jupyter-Notebook-on-Raspberry-Pi/) to get Jupyter Notebook running on your RPi. Then skip down to step 2.
 
 ### Universal instructions (for all devices)
 
