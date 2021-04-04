@@ -1,3 +1,7 @@
+# Note: no longer maintained
+
+This project is no longer actively maintained as of Dec 2019. Please use the tools at [raspishake/rsudp](https://github.com/raspishake/rsudp) instead, which provide more functionality independent of Jupyter Notebooks.
+
 # shake-UDP-live
 Low requirement jupyter notebooks designed to read and plot RaspberryShake UDP packets in real time
 
